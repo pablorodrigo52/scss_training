@@ -1,3 +1,7 @@
+.destaque button, .plano button, .contato button {
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3); }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -431,8 +435,6 @@ header .container {
     font-size: 1.2em;
     -webkit-border-radius: 50px;
     border-radius: 50px;
-    -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
     font-weight: bold; }
 
 /** Sobre **/
@@ -506,8 +508,6 @@ header .container {
     font-size: 1.2em;
     -webkit-border-radius: 0.3em;
     border-radius: 0.3em;
-    -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
     margin-left: 2em; }
 
 .itens-plano {
@@ -601,9 +601,7 @@ textarea {
   height: 38px;
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
-  border-radius: 0.3em;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3); }
+  border-radius: 0.3em; }
 
 /** Footer **/
 footer {
